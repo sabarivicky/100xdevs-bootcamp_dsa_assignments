@@ -8,7 +8,7 @@ public class B_sum_of_arrays {
         for(int i = 0 ; i<n; i++){
             arr[i] = scan.nextInt();
         }
-        int sum = 0;
+        long sum = 0;
         for(int i = 0 ; i<n ;i++){
             sum+= arr[i];
         }
